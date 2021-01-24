@@ -22,3 +22,46 @@ unLATCA is an open source project to un-lock the LATCA chemical library dataset 
 1. The LATCA project has been the work of many dedicated technicians, graduate students, academic professionals and academic institutions across the world for over a decade. 
 
 1. This project **unLATCA** will now be at the disposal of those in the existing collaborative network and encourage new comers to join, dissect, analyze and futher inspire future scientific advances in chemical biology.
+
+##
+#Procedure used to download LATCA from a public database [ChemMine](http://chemminedb.ucr.edu/compounds/Latca/).
+
+
+Used a bash brace expansion to create a wget list for the 365 index pages in the database (./RunThis2Scrape.sh)
+
+`echo http://chemminedb.ucr.edu/compounds/Latca/:{1..365}xxx | sed 's/xxx/\n/g' > ScrapeList.txt`
+
+Downloaeded each html compound index page using wget supplied by the above list
+
+`wget -i ScrapeList.txt`
+
+Cleaned the html index pages down to just the urls for each compound
+
+`grep "href\=\"/compounds/Latca/LAT" * | sed 's/^.*href\=\"\/compounds\/Latca\///g' | sed 's/\".*//' | sed 's/L/chemminedb\.ucr\.edu\/compounds\/Latca\/L/g' > FinalList.txt`
+
+Removed duplicate entries
+
+`sort FinalList.txt | uniq > RealFinalList.txt`
+
+Used new list to obtain individual compound records
+
+`wget -i RealFinalList.txt`
+
+Made a for loop to go through each .html file and clean it for just the SDF (Structured Data File) data block containing the chemical structure and compound annotation (./Scrape2SDF.sh)
+
+`list=(ls *.html*)
+
+for i in "${list[@]}"
+
+do
+
+cat $i | sed -ne '/ISIS/,$p' | sed -e '/\$\$\$\$/,//d' | sed -e '$a\$\$\$\$' | sed 's/\&gt;/\>/g'  | sed 's/\&lt;/\</g' >> master.sdf
+
+done
+`
+
+Imported master.SDF into R session ...
+
+
+
+
