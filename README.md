@@ -7,7 +7,7 @@ unLATCA is an open source project to un-lock the LATCA chemical library dataset 
 ##
 # Motivation 
 
-1. LATCA is an acronym for Library of AcTive Chemicals on Arabidopsis. LATCA is both a chemical library and international collaborative project to screen and annotate curated and diverse chemical probes for plant chemical genetics/genomics, model,  non-model organisms and has established utility beyond the scope of plant biology.
+1. [LATCA](http://www.thecutlerlab.org/2008/05/latca.html) is an acronym for Library of AcTive Chemicals on Arabidopsis. LATCA is both a chemical library and international collaborative project to screen and annotate curated and diverse chemical probes for plant chemical genetics/genomics, model,  non-model organisms and has established utility beyond the scope of plant biology.
 
 1. The LATCA project has been influencial in the development of chemical genetics as a whole (see refs below), but does not have an appropriate public accessible database despite being hosted on [ChemMine](http://chemminedb.ucr.edu/compounds/Latca/).
 
