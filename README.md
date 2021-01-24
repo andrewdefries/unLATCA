@@ -49,16 +49,16 @@ Used new list to obtain individual compound records
 
 Made a for loop to go through each .html file and clean it for just the SDF (Structured Data File) data block containing the chemical structure and compound annotation (./Scrape2SDF.sh)
 
-`list=(ls *.html*)
+```list=(`ls *.html*`)```
 
-for i in "${list[@]}"
+`for i in "${list[@]}"`
 
-do
+`do`
 
-cat $i | sed -ne '/ISIS/,$p' | sed -e '/\$\$\$\$/,//d' | sed -e '$a\$\$\$\$' | sed 's/\&gt;/\>/g'  | sed 's/\&lt;/\</g' >> master.sdf
+`cat $i | sed -ne '/ISIS/,$p' | sed -e '/\$\$\$\$/,//d' | sed -e '$a\$\$\$\$' | sed 's/\&gt;/\>/g'  | sed 's/\&lt;/\</g' >> master.sdf`
 
-done
-`
+`done`
+
 
 Imported master.SDF into R session ...
 
