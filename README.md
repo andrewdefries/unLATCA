@@ -21,4 +21,4 @@ unLATCA is an open source project to un-lock the LATCA chemical library dataset 
 
 1. The LATCA project has been the work of many dedicated technicians, graduate students, academic professionals and academic institutions across the world for over a decade. 
 
-1. This project **unLATCA** will now be at the disposal of those in the existing collaborative network for new comers to join, dissect, analyze and inspire future scientific advances in chemical biology.
+1. This project **unLATCA** will now be at the disposal of those in the existing collaborative network and encourage new comers to join, dissect, analyze and futher inspire future scientific advances in chemical biology.
