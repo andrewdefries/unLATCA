@@ -234,7 +234,7 @@ CMP1536,232,LAT003,H,10,LAT003H10,Sigma,F 9397,Flutamide,2.5,23,-,3397,Non-stero
 CMP769,233,LAT003,A,11,LAT003A11,Sigma,F 9677,Felodipine,2.5,24,-,3333,L-type calcium channel blocker    
 CMP880,234,LAT003,B,11,LAT003B11,Sigma,G 0668,Gw2974,2.5,54,-,6603857,Dual EGFR and ErbB-2 receptor tyrosine kinase inhibitor    
 CMP991,235,LAT003,C,11,LAT003C11,Sigma,H 6036,"1,3,5-Tris(4-Hydroxyphenyl)-4-Propyl-1H-Pyrazole",2.5,19,-,6095481,Specific estrogen receptor alpha (ERalpha) agonist    
-CMP1102,236,LAT003,D,11,LAT003D11,Sigma,I 0404,Indirubin-3&#39;-Oxime,2.5,>100 ,-,5326739,"Cyclin dependent kinase (CDK) inhibitor, competes with ATP for catalytic subunit binding >100    "
+CMP1102,236,LAT003,D,11,LAT003D11,Sigma,I 0404,Indirubin-3-Oxime,2.5,>100 ,-,5326739,"Cyclin dependent kinase (CDK) inhibitor, competes with ATP for catalytic subunit binding >100    "
 CMP1214,237,LAT003,E,11,LAT003E11,Sigma,I 9778,Cr 2945,2.5,56,-,6604120,Selective gastrin/CCK(B) receptor antagonist    
 CMP1325,238,LAT003,F,11,LAT003F11,Sigma,I-146,Ib-Meca,2.5,8.2,-,3668,Kinetin Analog    
 CMP1436,239,LAT003,G,11,LAT003G11,Sigma,K 1003,Ketoconazole,2.5,3.7,+,3823,"Potent inhibitor of cytochrome P450c17 enzyme, antifungal agent    "
@@ -337,15 +337,15 @@ CMP2964,335,LAT005,G,3,LAT005G03,Suppelco,LB18382,Atrazine,2.5,>100 ,-,2256,Herb
 CMP2975,336,LAT005,H,3,LAT005H03,Suppelco,46120,Clomazone,2.5,>100 ,-,54778,Herbicide >100 Tagets Caotenoid Biosynthesis    
 CMP2470,337,LAT005,A,4,LAT005A04,Sigma,T-8656,Thiourea,2.5,inactive,-,2723790,   
 CMP2581,338,LAT005,B,4,LAT005B04,Sigma,P-8657,Phthalic Acid,2.5,inactive,-,1017,   
-CMP2692,339,LAT005,C,4,LAT005C04,Sigma,D-7505,"2,2&#39;-Dipyridyl",2.5,71,-,1474,   
+CMP2692,339,LAT005,C,4,LAT005C04,Sigma,D-7505,"2,2-Dipyridyl",2.5,71,-,1474,   
 CMP2803,340,LAT005,D,4,LAT005D04,Aldrich,D110000,"3,5-Dihydroxybenzoic Acid",2.5,inactive,-,7424,   
 CMP2914,341,LAT005,E,4,LAT005E04,Aldrich,H20202,4-Hydroxybenzophenone,2.5,>100 ,-,14347,>100    
 CMP2954,342,LAT005,F,4,LAT005F04,Fluka,37490,"1,5-Dihydroxyanthraquinone",2.5,inactive,-,8328,   
-CMP2965,343,LAT005,G,4,LAT005G04,Aldrich,T64408,"2&#39;,3&#39;,4&#39;-Trihydroxyacetophenone",2.5,inactive,-,10706,   
-CMP2976,344,LAT005,H,4,LAT005H04,Aldrich,D107409,"2&#39;,4&#39;-Dihydroxyacetophenone",2.5,inactive,-,6990,   
+CMP2965,343,LAT005,G,4,LAT005G04,Aldrich,T64408,"2,3,4-Trihydroxyacetophenone",2.5,inactive,-,10706,   
+CMP2976,344,LAT005,H,4,LAT005H04,Aldrich,D107409,"2,4-Dihydroxyacetophenone",2.5,inactive,-,6990,   
 CMP2481,345,LAT005,A,5,LAT005A05,Aldrich,D108103,"1,8-Dihydroxyanthraquinone",2.5,>100 ,-,2950,>100    
 CMP2592,346,LAT005,B,5,LAT005B05,Aldrich,Q90-6,Quinizarin,2.5,inactive,-,6688,   
-CMP2703,347,LAT005,C,5,LAT005C05,Aldrich,T64602,"2&#39;,4&#39;,6&#39;-Trihydroxyacetophenone Monohydrate",2.5,inactive,-,2775149,   
+CMP2703,347,LAT005,C,5,LAT005C05,Aldrich,T64602,"2,4,6-Trihydroxyacetophenone Monohydrate",2.5,inactive,-,2775149,   
 CMP2814,348,LAT005,D,5,LAT005D05,Aldrich,149357,"2,5-Dihydroxybenzoic Acid",2.5,inactive,-,3469,   
 CMP2925,349,LAT005,E,5,LAT005E05,Aldrich,D109606,"2,6-Dihydroxybenzoic Acid",2.5,inactive,-,9338,   
 CMP2955,350,LAT005,F,5,LAT005F05,Sigma,P5630,"3,4-Dihydroxybenzoic Acid",2.5,inactive,-,72,   
@@ -359,9 +359,9 @@ CMP2936,357,LAT005,E,6,LAT005E06,Fluka,91942,"2,4,6-Trihydroxybenzoic Acid",2.5,
 CMP2956,358,LAT005,F,6,LAT005F06,Fluka,2350,Esculin Sesquihydrate,2.5,>100 ,-,5281417,>100    
 CMP2967,359,LAT005,G,6,LAT005G06,Aldrich,229148,Purpurin,2.5,>100 ,+,6683,>100    
 CMP2978,360,LAT005,H,6,LAT005H06,Sigma,D2773,Dianthrol,2.5,inactive,-,10187,   
-CMP2503,361,LAT005,A,7,LAT005A07,Aldrich,328103,3&#39;-Hydroxyacetophenone,2.5,>100 ,-,8487,>100    
-CMP2614,362,LAT005,B,7,LAT005B07,Aldrich,278564,4&#39;-Hydroxyacetophenone,2.5,inactive,-,7469,   
-CMP2725,363,LAT005,C,7,LAT005C07,Aldrich,463329,"5,5&#39;-Methylenebis(2-Hydroxy-4-Methoxy-Benzophenone)",2.5,inactive,-,111542,   
+CMP2503,361,LAT005,A,7,LAT005A07,Aldrich,328103,3-Hydroxyacetophenone,2.5,>100 ,-,8487,>100    
+CMP2614,362,LAT005,B,7,LAT005B07,Aldrich,278564,4-Hydroxyacetophenone,2.5,inactive,-,7469,   
+CMP2725,363,LAT005,C,7,LAT005C07,Aldrich,463329,"5,5-Methylenebis(2-Hydroxy-4-Methoxy-Benzophenone)",2.5,inactive,-,111542,   
 CMP2836,364,LAT005,D,7,LAT005D07,Aldrich,"51,306-7",2-Hydroxychalcone,2.5,79,+,97765,   
 CMP2946,365,LAT005,E,7,LAT005E07,Aldrich,H5006,Hesperidin Methyl Chalcone,2.5,inactive,-,10621,   
 CMP2957,366,LAT005,F,7,LAT005F07,Aldrich,190608,6-Benzoyl-2-Naphthol,2.5,83,-,93271,   
@@ -369,7 +369,7 @@ CMP2968,367,LAT005,G,7,LAT005G07,Aldrich,H31328,2-Hydroxy-9-Fluorenone,2.5,>100 
 CMP2979,368,LAT005,H,7,LAT005H07,Sigma,S102504,1-(2-Hydroxy-Phenyl)-3-Phenyl-Propenone,2.5,>100 ,+,97765,>100    
 CMP2514,369,LAT005,A,8,LAT005A08,Fluka,54630,4-Hydroxybenzoic Acid,2.5,inactive,-,135,   
 CMP2625,370,LAT005,B,8,LAT005B08,Fluka,84210,Salicylic Acid,2.5,>100 ,-,338,>100    
-CMP2736,371,LAT005,C,8,LAT005C08,Aldrich,B56404,4&#39;-Bromoacetophenone,2.5,inactive,-,7466,   
+CMP2736,371,LAT005,C,8,LAT005C08,Aldrich,B56404,4-Bromoacetophenone,2.5,inactive,-,7466,   
 CMP2847,372,LAT005,D,8,LAT005D08,Fisher,H-329,Hydroquinone,2.5,inactive,-,785,   
 CMP2947,373,LAT005,E,8,LAT005E08,Sigma,B-0753,"2,3-Butanedione Monoxime (10X)",25,inactive,-,6398997,Myosin Inhibitor    
 CMP2958,374,LAT005,F,8,LAT005F08,Wako,010-18931,L-Aminooxyphenylpropanoic Acid ,10,>400 ,-,NULL,Inhibits phenylpropanoid  biosynthesis Phenylalanine Amino Lyase Inhibitor Inhibits phenylpropanoid  biosynthesis   >400    
@@ -435,7 +435,7 @@ CMP2990,433,LAT006,A,6,LAT006A06,Sigma,L-9756,Levamisole Hcl,2.5,inactive,-,2687
 CMP3001,434,LAT006,B,6,LAT006B06,ICN,151502,Beta-Naphthaleneacetic Acid,2.5,80,-,6862,   
 CMP3012,435,LAT006,C,6,LAT006C06,Sigma,P-8666,Pyroxidine Hcl,2.5,inactive,-,1054,   
 CMP3023,436,LAT006,D,6,LAT006D06,BDH,B10233,Silver Nitrate,2.5,inactive,+,24470,   
-CMP3034,437,LAT006,E,6,LAT006E06,Sigma,F-0593,5-Fluoro-2&#39;-Deoxyuridine,2.5,0.006,-,3363,   
+CMP3034,437,LAT006,E,6,LAT006E06,Sigma,F-0593,5-Fluoro-2-Deoxyuridine,2.5,0.006,-,3363,   
 CMP3045,438,LAT006,F,6,LAT006F06,Aldrich,"28,554-4","2,6-Diaminopurine Sulfate",2.5,20,-,81695,   
 CMP3056,439,LAT006,G,6,LAT006G06,Sigma,A-1895,Aurintricarboxylic Acid,2.5,inactive,-,2259,   
 CMP3067,440,LAT006,H,6,LAT006H06,Sigma,C-7142,Clofibric Acid,2.5,>100 ,-,2797,>100    
@@ -450,7 +450,7 @@ CMP3068,448,LAT006,H,7,LAT006H07,Sigma,I5386,Indole-3-Butyric Acid,2.5,26,-,8617
 CMP2992,449,LAT006,A,8,LAT006A08,Sigma,D-7792,2-Keto-L-Gluonic Acid,2.5,92,-,235,   
 CMP3003,450,LAT006,B,8,LAT006B08,Sigma,M2147,Mevinolin,2.5,>100 ,-,3962,HMG-CoA reducatse Inhibitor >100    
 CMP3014,451,LAT006,C,8,LAT006C08,Fluka,22040,Beta-Carotene,2.5,inactive,-,573,   
-CMP3025,452,LAT006,D,8,LAT006D08,Sigma,B-5002,5-Bromo-2&#39;-Deoxyuridine,2.5,26,-,6035,   
+CMP3025,452,LAT006,D,8,LAT006D08,Sigma,B-5002,5-Bromo-2-Deoxyuridine,2.5,26,-,6035,   
 CMP3036,453,LAT006,E,8,LAT006E08,BioVectra,1555,5-Fluororotic Acid (5-Foa),2.5,6.7,-,69711,   
 CMP3047,454,LAT006,F,8,LAT006F08,Sigma,A-2411,Amphotercin B,2.5,>100 ,+,5280965,>100    
 CMP3058,455,LAT006,G,8,LAT006G08,Sigma,A-3659,P-Aminobenzoic Acid,2.5,inactive,-,978,   

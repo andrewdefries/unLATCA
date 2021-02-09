@@ -6,7 +6,20 @@ sdfset<-read.SDFset("master.sdf")
 
 blockmatrix <- datablock2ma(datablocklist=datablock(sdfset)) # Converts data block to matrix 
 numchar <- splitNumChar(blockmatrix=blockmatrix) # Splits to numeric and character matrix 
+
+#export and do some cleaning in excel via find and replace
 write.table(blockmatrix, file="master.csv", sep=",", quote=T)
+
+#re-import and export as markdown hack
+table<-read.csv("master.csv")
+
+#subset only essential fields
+table<-table[,6:14]
+write.table(table, file="master.md", sep="|", quote=F, row.names=F)
+
+system("cat master.md | sed 's/^/\|/' | sed 's/$/\|/' > tmp"
+system("mv tmp master.md")
+
 
 cid(sdfset)<-datablocktag(sdfset,tag="LATID")
 
